@@ -35,8 +35,8 @@ const playAudio =()=>{
             alignItems: 'center',
           }}
         >
-          <h2 style={{ padding: '15px' }}>- ${data.setup ? data.setup : 'What kind of dinosaur loves to sleep?'}</h2>
-          <h3 style={{color:'red'}}>-  ${punchline? punchline : 'A stega-snore-us.'}</h3>
+          <h2 style={{ padding: '15px' }}>- {data.setup ? data.setup : 'What kind of dinosaur loves to sleep?'}</h2>
+          <h3 style={{color:'red'}}>-  {punchline? punchline : 'A stega-snore-us.'}</h3>
         </div>
           <button className="btn" onClick={playAudio}>
          next joak please
