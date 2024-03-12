@@ -1,0 +1,40 @@
+.frame{
+  background-color: pink ;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+/*align-items: center;*/
+
+}
+
+.second-parent{
+
+  background-color: red ;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+.bg-think{
+  background-image: url('https://cliply.co/wp-content/uploads/2020/01/401911130_THINKING_FACE_BG_1920x1080.png');
+  background-repeat: no-repeat;
+background-size: cover;
+  
+}
+.bg-laugh{
+  background-image: url('https://helios-i.mashable.com/imagery/articles/05NO8OhhfiSzs4peOC8jrkG/hero-image.fill.size_1248x702.v1644432805.jpg');
+  background-repeat: no-repeat;
+background-size: cover;
+}
+.btn{
+  padding: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
